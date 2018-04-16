@@ -16,8 +16,8 @@
 
 		public function about(){
 			$data=[
-			'title'=>'About page',	
-			'message'=>'welcome to my PHP MVCproject',
+			'title'=>'Sayed Ahmed',	
+			'message'=>'hi It\'s a fun project. the project has been created with core php with MVC pattern along with Bootstrap. the purpose of this project was to implement PHP in professional and secure way.',
 			];
 			$this->view('pages/about',$data);
 		}

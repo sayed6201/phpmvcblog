@@ -49,7 +49,7 @@
 		        		$_SESSION['user_name']=$user->name;
 		        		$_SESSION['user_email']=$user->email;
 
-		        		$this->view('posts/dashboard');
+		        		header('location:'.URL.'postscontroller/dashboard');
 
 		        	}else{
 		        		$data['password_err']='Wrong password';

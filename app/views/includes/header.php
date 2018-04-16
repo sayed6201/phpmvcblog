@@ -44,7 +44,11 @@
                     <a class="dropdown-item" href="<?php echo URL.'userscontroller/logout'; ?>">Logout</a>
                     </div>
                     </li>
-            <?php endif; ?>    
+            <?php endif; ?>  
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo URL.'pagescontroller/about' ?>">About</a>
+                    </li>  
 
         </ul>
         <!-- Links -->
